@@ -15,7 +15,6 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .red{
-    transition: .4s;
     cursor: context-menu;
 }
 .red:hover{
