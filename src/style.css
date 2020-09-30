@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#root{
+    background-color: slategrey;
+    line-height: 90px;
+}
+
+.title{
+    font-weight: 200;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.red{
+    transition: .4s;
+    cursor: context-menu;
+}
+.red:hover{
+    color: red;
+}
