@@ -2,7 +2,6 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import './style.css';
-// import './myVideo.mp4';
 
 function App() {
   return (
@@ -11,7 +10,7 @@ function App() {
         <div style={{maxWidth: '100vw' , backgroundColor: 'ThreeDLightShadow'}}>
           <h1 className="title red">Yahya Akermi</h1>
           <br />
-          <img src="/ShaneMcGowan.jpg" />
+          <img src="/image/ShaneMcGowan.jpg" alt="" />
           <br />
           <img src="/imageInPublic.jpg" />
         </div>
