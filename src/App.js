@@ -2,22 +2,22 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import './style.css';
+import  ShaneMcGowan from "./Images/ShaneMcGowan.jpg";
+import ReactPlayer from 'react-player';
 
 function App() {
   return (
     <div className="App">
       <div>
-        <div style={{maxWidth: '100vw' , backgroundColor: 'ThreeDLightShadow'}}>
+        <div style={{maxWidth: '100vw'}}>
           <h1 className="title red">Yahya Akermi</h1>
           <br />
-          <img src="/image/ShaneMcGowan.jpg" alt="" />
+          <img src={ShaneMcGowan}  />
           <br />
-          <img src="/imageInPublic.jpg" />
-        </div>
-        <video width={320} height={240} controls>
-          <source src="/myVideo.mp4" type="video/mp4" />
-        </video>
-      </div>
+          <img src="/NewZealand.png"  />
+          <ReactPlayer url="https://www.youtube.com/watch?v=VnT7pT6zCcA" style={{marginLeft:400}}></ReactPlayer>  
+          </div>
+      </div>  
     </div>
   );
 }
