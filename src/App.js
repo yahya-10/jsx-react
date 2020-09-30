@@ -11,7 +11,7 @@ function App() {
         <div style={{maxWidth: '100vw' , backgroundColor: 'ThreeDLightShadow'}}>
           <h1 className="title red">Yahya Akermi</h1>
           <br />
-          <img src="/imageInSrc.jpg" />
+          <img src="/ShaneMcGowan.jpg" />
           <br />
           <img src="/imageInPublic.jpg" />
         </div>
